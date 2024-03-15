@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("devopswithsam/test")
+       app = docker.build("devopswithsam/jenkins-flask")
     }
 
     stage('Test image') {
